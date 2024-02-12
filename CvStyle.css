@@ -1,0 +1,348 @@
+
+
+
+body{
+    font-family: "Inria Sans", sans-serif;
+
+}
+h3{
+    font-weight: 900;
+    font-size: 2em;
+}
+h4{
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+#barcode{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.phonenumber{
+    color: black;
+    font-size: 17px;
+    margin: 0px 10px;
+    
+}
+
+
+
+.barcode-container{
+    padding: 50px 50px;
+
+}
+.shapecontainer{
+    clip-path: polygon(0% 0%, 100% 0%, 46.2% 61.3%);
+
+ 
+    height: 100% ;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #343a40;
+    z-index: 1555;
+    top: 100%;
+}
+.shapecontainerrelative{
+    position: relative;
+}
+
+.name-container
+{
+
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.ulist{
+    margin: 0; padding: 0;
+}
+.light-bg{
+    background-color: #EEE7E1;
+}
+.navlist i{
+    margin: 0px 10px;
+    font-size: 25px;
+}
+.navlist{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px 0 5px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+.navlist-bold{
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px 0;
+   
+}
+.right-imgs{
+    position: relative;
+
+}
+.right-imgs::after{
+position: absolute;
+content: "";
+background: url(sideline.png)no-repeat ;
+z-index: 23;
+width: 100%;
+height: 200px;
+left: -40px;
+top: -10px;
+}
+
+.right-img-big{
+    position: relative;
+
+}
+.right-img-big::after{
+    position: absolute;
+    content: "";
+    background: url(sieline2.png)no-repeat ;
+    z-index: 23;
+    width: 100%;
+    height: 100%;
+    left: -5px;
+    top: -25px;
+    }
+.mt-custom-skill{
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+
+
+/* rightside----------------- */
+.mt-custom{
+    margin-top: 100px;
+
+}
+.ml-custom{
+padding-left: 30px;
+}
+
+.container-heading p{
+    font-size: 20px;
+    padding: 10px 10px 10px 0px;
+
+}
+.container-experience {
+    margin: 50px 0;
+}
+.container-experience p{
+    margin-top: -5px;
+}
+.line-btm{
+    border-bottom: 2px solid black;
+}
+.link a{
+    color: black;
+}
+.emailsend {
+    color: black;
+    font-size: 16px;
+    margin: 0px 1px;
+}
+
+@media only screen and (max-width: 1000px) {
+  
+    .emailsend {
+        color: black;
+        font-size: 16px;
+        margin: 0px 10px;
+    }
+    .navlist i {
+        margin: 0px 10px;
+        font-size: 16px;
+    }
+    .phonenumber {
+        color: black;
+        font-size: 16px;
+        margin: 0px 10px;
+    }
+    h3 {
+        font-weight: 900;
+        font-size: 1.3em;
+    }
+    
+    h4 {
+        font-weight: 900;
+        font-size: .9em;
+    }
+    #barcode {
+        width: 70%;
+        height: 70%;
+        position: relative;
+    }
+
+
+
+    .right-imgs::after {
+        position: absolute;
+        content: "";
+        background: url(sideline.png)no-repeat;
+        z-index: 23;
+        width: 100%;
+        height: 140px;
+        left: -52px;
+        top: -10px;
+    }
+
+
+    .mt-custom-skill {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+
+    .container-heading p {
+        font-size: 16px;
+        padding: 10px 10px 10px 0px;
+    }
+
+
+
+
+
+
+
+
+  }
+
+  @media only screen and (max-width: 700px) {
+
+    .shapecontainer {
+    display: none;}
+h1{
+    font-size: 1em;
+}
+.barcode-container {
+    padding: 20px 20px;
+}
+
+
+.emailsend {
+    color: black;
+    font-size: 16px;
+    margin: 0px 1px;
+}
+.mt-custom {
+    margin-top: 50px;
+}
+h3 {
+    font-weight: 900;
+    font-size: 2em;
+}h4 {
+    font-weight: 900;
+    font-size: 1em;
+}
+#barcode {
+  display: none;
+}
+.barcode-container {
+    padding: 20px 20px;
+    width: 100%;
+}
+
+h1{
+    font-size: 2em;
+}
+.emailsend {
+    color: black;
+    font-size: 24px;
+    margin: 0px 1px;
+}
+.phonenumber {
+    color: black;
+    font-size: 24px;
+    margin: 0px 10px;
+}
+.navlist i {
+    margin: 0px 10px;
+    font-size: 25px;
+}
+
+.container-details{
+    margin: 20px 0;
+}
+
+
+
+.light-bg{
+    padding: 50px 10px;
+}
+
+
+
+  }
+
+
+  @media only screen and (max-width: 500px) {
+
+    .emailsend {
+        color: black;
+        font-size: 15px;
+        margin: 0px 1px;
+    }
+
+    .phonenumber {
+        color: black;
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+
+
+    .navlist i {
+        margin: 0px 10px;
+        font-size: 19px;
+    }
+.link a{
+    font-size: .8em;
+}
+  }
+
+
+  
+  @media only screen and (max-width: 350px) {
+h1{
+    font-size: 1em;
+}
+h3{
+    font-size: 1.5em;
+}
+h4{
+    font-size: 1.4em;
+}
+.light-bg{
+    padding: 10px 10px;
+}
+.container-details {
+    margin: 10px 0;
+}
+
+    .emailsend {
+        color: black;
+        font-size: 13px;
+        margin: 0px 1px;
+    }
+
+    .phonenumber {
+        color: black;
+        font-size: 13px;
+        margin: 0px 10px;
+    }
+
+
+    .navlist i {
+        margin: 0px 10px;
+        font-size: 13px;
+    }
+.link a{
+    font-size: 14px;
+}
+  }
